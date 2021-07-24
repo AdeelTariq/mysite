@@ -10,6 +10,11 @@
 <link rel="alternate" type="application/rss+xml" title="Adeel Tariq &raquo; Feed" href="https://adeeltariq.com/index.php/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Adeel Tariq &raquo; Comments Feed" href="https://adeeltariq.com/index.php/comments/feed/" />
 <link rel='stylesheet' id='wp-block-library-css'  href='https://adeeltariq.com/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wpfm-frontend-font-awesome-css'  href='https://adeeltariq.com/wp-content/plugins/wp-floating-menu/css/font-awesome/font-awesome.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wpfm-frontend-genericons-css-css'  href='https://adeeltariq.com/wp-content/plugins/wp-floating-menu/css/genericons.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wpfm-frontend-css-css'  href='https://adeeltariq.com/wp-content/plugins/wp-floating-menu/css/front-end.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://adeeltariq.com/wp-includes/css/dashicons.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wpfm-frontend-vesper-icons-css-css'  href='https://adeeltariq.com/wp-content/plugins/wp-floating-menu/css/vesper-icons.css?ver=5.7.2' type='text/css' media='all' />
 <link rel='stylesheet' id='visualcomposerstarter-font-css'  href='https://adeeltariq.com/wp-content/themes/visual-composer-starter/css/vc-font/visual-composer-starter-font.min.css?ver=3.2.2' type='text/css' media='all' />
 <link rel='stylesheet' id='visualcomposerstarter-general-css'  href='https://adeeltariq.com/wp-content/themes/visual-composer-starter/css/styles/style.min.css?ver=3.2.2' type='text/css' media='all' />
 <link rel='stylesheet' id='visualcomposerstarter-responsive-css'  href='https://adeeltariq.com/wp-content/themes/visual-composer-starter/css/styles/responsive.min.css?ver=3.2.2' type='text/css' media='all' />
@@ -34,9 +39,9 @@
 	 { font-family: Roboto; }
 	 body,
 	 .sidebar-widget-area a:hover, .sidebar-widget-area a:focus,
-	 .sidebar-widget-area .widget_recent_entries ul li:hover, .sidebar-widget-area .widget_archive ul li:hover, .sidebar-widget-area .widget_categories ul li:hover, .sidebar-widget-area .widget_meta ul li:hover, .sidebar-widget-area .widget_recent_entries ul li:focus, .sidebar-widget-area .widget_archive ul li:focus, .sidebar-widget-area .widget_categories ul li:focus, .sidebar-widget-area .widget_meta ul li:focus, .visualcomposerstarter.woocommerce-cart .woocommerce table.cart .product-name a { color: #cccccc; }
+	 .sidebar-widget-area .widget_recent_entries ul li:hover, .sidebar-widget-area .widget_archive ul li:hover, .sidebar-widget-area .widget_categories ul li:hover, .sidebar-widget-area .widget_meta ul li:hover, .sidebar-widget-area .widget_recent_entries ul li:focus, .sidebar-widget-area .widget_archive ul li:focus, .sidebar-widget-area .widget_categories ul li:focus, .sidebar-widget-area .widget_meta ul li:focus, .visualcomposerstarter.woocommerce-cart .woocommerce table.cart .product-name a { color: #dddddd; }
 	  .comment-content table,
-	  .entry-content table { border-color: #cccccc; }
+	  .entry-content table { border-color: #dddddd; }
 	  .entry-full-content .entry-author-data .author-biography,
 	  .entry-full-content .entry-meta,
 	  .nav-links.post-navigation a .meta-nav,
@@ -116,7 +121,7 @@
 	  .entry-content blockquote, .comment-content { border-left-color: #7d5bd9; }
 	  
 	  html, #main-menu ul li ul li { font-size: 16px }
-	  body, #footer, .footer-widget-area .widget-title { line-height: 1.7; }
+	  body, #footer, .footer-widget-area .widget-title { line-height: 1.3; }
 	  body {
 		letter-spacing: 0.01rem;
 		font-weight: 400;
@@ -337,10 +342,10 @@
 		color: #eeeeee;
 		font-family: Montserrat;
 		font-size: 22px;
-		font-weight: 400;
+		font-weight: 300;
 		font-style: normal;
 		letter-spacing: 0.01rem;
-		line-height: 1.1;
+		line-height: 1.25;
 		margin-top: 0;
 		margin-bottom: 0.625rem;
 		text-transform: none;  
@@ -351,7 +356,7 @@
 		color: #eeeeee;
 		font-family: Montserrat;
 		font-size: 16px;
-		font-weight: 400;
+		font-weight: 300;
 		font-style: normal;
 		letter-spacing: 0.01rem;
 		line-height: 1.1;
@@ -386,6 +391,10 @@
 		
 		/*Tag hover background*/
 		.entry-tags a:hover { background-color: #7d5bd9; }
+		
+		/*Footer area background color*/
+		#footer { background-color: #242424; }
+		.footer-widget-area { background-color: #282828; }
 		
 		/*Footer area text color*/
 		#footer,
@@ -483,7 +492,10 @@
 	}
 </style>
 <link rel='stylesheet' id='js_composer_front-css'  href='https://adeeltariq.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wpfm-google-fonts-css'  href='//fonts.googleapis.com/css?family=Roboto%3A100italic%2C100%2C300italic%2C300%2C400italic%2C400%2C500italic%2C500%2C700italic%2C700%2C900italic%2C900&#038;ver=5.7.2' type='text/css' media='all' />
 <script type='text/javascript' src='https://adeeltariq.com/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://adeeltariq.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://adeeltariq.com/wp-content/plugins/wp-floating-menu/js/frontend.js?ver=1.4.4' id='wpfm-frontend-js-js'></script>
 <link rel="https://api.w.org/" href="https://adeeltariq.com/index.php/wp-json/" /><link rel="alternate" type="application/json" href="https://adeeltariq.com/index.php/wp-json/wp/v2/pages/26" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://adeeltariq.com/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 5.7.2" />
 <link rel="canonical" href="https://adeeltariq.com/" />
@@ -507,11 +519,7 @@ body.custom-background { background-color: #282828; }
 display: none;
 }
 
-.grayscale {
-	-webkit-filter: grayscale(10%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(10%);
-
-}
+/* Big Button */
 
 .btn-omega::after {
     z-index: -1;
@@ -572,8 +580,175 @@ a {
 .vc_btn3.vc_btn3-color-warning.vc_btn3-style-flat, 
 .vc_btn3.vc_btn3-color-warning.vc_btn3-style-flat:hover, .vc_btn3.vc_btn3-color-warning.vc_btn3-style-flat:focus, .vc_btn3.vc_btn3-color-warning.vc_btn3-style-flat:active {
 	background-color: inherit;
-}		</style>
-		<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1626629029281{padding-right: 40px !important;padding-left: 40px !important;}.vc_custom_1626608525894{padding-top: 20px !important;}.vc_custom_1626608650208{margin-top: 0px !important;margin-right: 0px !important;margin-bottom: 0px !important;margin-left: 0px !important;padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;padding-left: 0px !important;}.vc_custom_1626584193325{padding-top: 20px !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>	</head>
+}
+
+/* Contact me Button */
+
+.btn-alpha {
+	margin: 0;
+}
+.btn-alpha > a:hover {
+  text-decoration: underline !important;
+}
+.btn-alpha > a {
+  background-image: inherit !important;
+}
+
+/* Section Heading */
+
+.section-heading {
+	margin-top: 96px;
+	margin-bottom: 16px;
+}
+
+/* Floating menu */
+
+
+#wpfm-floating-menu-nav > ul:nth-child(1) {
+  padding-left: 0px;
+}
+
+.wpfm-template-4 ul li .wpfm-icon-block:active, .wpfm-template-4 ul li .wpfm-icon-block:focus {
+	background-color: #424242;
+}
+
+
+.wpfm-template-4 .wpfm-position-left ul li .wpfm-menu-name, .wpfm-template-4 .wpfm-position-top-left ul li .wpfm-menu-name, .wpfm-template-4 .wpfm-position-bottom-left ul li .wpfm-menu-name {
+
+  transition: left 0s ease ,opacity 0s ease;
+  -webkit-transition: left 0s ease ,opacity 0s ease;
+  -moz-transition: left 0s ease;
+  -o-transition: left 0s ease;
+  -ms-transition: left 0s ease;
+}
+
+
+@media only screen and (min-width: 800px) {
+
+.wpfm-template-4 ul li .wpfm-icon-block {
+  width: 120px;
+}
+
+.wpfm-template-4 .wpfm-position-left ul li .wpfm-icon-block, .wpfm-template-4 .wpfm-position-top-left ul li .wpfm-icon-block, .wpfm-template-4 .wpfm-position-bottom-left ul li .wpfm-icon-block {
+  right: -80px;
+  padding-right: 80px;
+}
+
+.wpfm-template-4 ul li .wpfm-menu-name {
+  opacity: 1;
+  z-index: 100;
+}
+
+.wpfm-template-4 .wpfm-menu-nav ul li > a > span.wpfm-menu-name {
+  font-size: 12px;
+  left: 64px;
+}
+	
+.wpfm-template-4 .wpfm-position-left ul li a, .wpfm-template-4 .wpfm-position-top-left ul li a, .wpfm-template-4 .wpfm-position-bottom-left ul li a {
+  padding-left: 45px;
+}
+}
+
+
+@media only screen and (max-width: 700px) {
+
+.wpfm-position-left.wpfm-menu-nav ul, .wpfm-position-right.wpfm-menu-nav ul {
+  top: initial;
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  -moz-transform: translateY(0);
+  bottom: 0px;
+  font-size: 0;
+  letter-spacing: 0;
+}
+
+.wpfm-menu-nav.wpfm-position-left ul, .wpfm-position-top-left ul, .wpfm-position-bottom-left ul {
+  right: 0;
+}
+
+.wpfm-template-1 ul li, .wpfm-template-2 ul li, .wpfm-template-3 ul li, .wpfm-template-4 ul li {
+  margin-bottom: 0;
+  width: 20%;
+}
+
+.wpfm-template-4 ul li {
+  display: inline-block;
+}
+
+.wpfm-template-4 ul li a {
+  position: absolute;
+}
+
+.wpfm-template-4 .wpfm-position-left ul li a, .wpfm-template-4 .wpfm-position-top-left ul li a, .wpfm-template-4 .wpfm-position-bottom-left ul li a {
+  
+  left: 0;
+  transform: translateX(0) translateZ(0);
+  -webkit-transform: translateX(0) translateZ(0);
+  -moz-transform: translateX(0) translateZ(0);
+  -ms-transform: translateX(0) translateZ(0);
+  -o-transform: translateX(0) translateZ(0);
+}
+
+.wpfm-template-4 ul li .wpfm-icon-block {
+  width: 100%;
+}
+
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+.wpfm-template-4 .wpfm-position-left ul li a:hover, .wpfm-template-4 .wpfm-position-top-left ul li a:hover, .wpfm-template-4 .wpfm-position-bottom-left ul li a:hover {
+  padding-left: initial;
+}
+
+.wpfm-template-4 .wpfm-position-left ul li a:hover .wpfm-menu-name, .wpfm-template-4 .wpfm-position-top-left ul li a:hover .wpfm-menu-name, .wpfm-template-4 .wpfm-position-bottom-left ul li a:hover .wpfm-menu-name {
+  left: 0;
+}
+	
+.wpfm-template-4 .wpfm-menu-nav ul li > a:hover > span.wpfm-menu-name {
+  font-size: 8px;
+}
+
+	
+.wpfm-template-4 ul li .wpfm-menu-name {
+  opacity: 1;
+  z-index: 100;
+}
+
+.wpfm-template-4 .wpfm-menu-nav ul li > a > span.wpfm-menu-name {
+  font-size: 8px;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+.wpfm-template-4 .wpfm-position-left ul li .wpfm-menu-name, .wpfm-template-4 .wpfm-position-top-left ul li .wpfm-menu-name, .wpfm-template-4 .wpfm-position-bottom-left ul li .wpfm-menu-name {
+  left: 0;
+  top: 20px;
+}
+
+.wpfm-template-4 ul li a {
+  height: 52px;
+}
+
+.wpfm-template-4 ul li .wpfm-icon-block {
+  height: 52px;
+}
+
+.wpfm-template-1 ul li, .wpfm-template-2 ul li, .wpfm-template-3 ul li, .wpfm-template-4 ul li {
+  height: 52px;
+}
+	
+	#footer {
+		padding-bottom: 40px;
+	}
+}
+		</style>
+		<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1626957022724{margin-top: 64px !important;margin-right: 10% !important;margin-left: 10% !important;}.vc_custom_1626955814848{margin-right: 10% !important;margin-left: 10% !important;}.vc_custom_1626930199952{margin-right: 10% !important;margin-left: 10% !important;}.vc_custom_1626954300913{margin-right: 10% !important;margin-left: 10% !important;}.vc_custom_1626954300913{margin-right: 10% !important;margin-left: 10% !important;}.vc_custom_1626954300913{margin-right: 10% !important;margin-left: 10% !important;}.vc_custom_1626930162750{margin-right: 10% !important;margin-left: 10% !important;}.vc_custom_1626930317996{margin-right: 10% !important;margin-left: 10% !important;background-color: #333333 !important;border-radius: 10px !important;}.vc_custom_1626930427374{margin-top: 16px !important;margin-right: 10% !important;margin-left: 10% !important;background-color: #333333 !important;border-radius: 10px !important;}.vc_custom_1626930231167{margin-right: 10% !important;margin-left: 10% !important;}.vc_custom_1626930239773{margin-right: 10% !important;margin-left: 10% !important;}.vc_custom_1626608525894{padding-top: 20px !important;}.vc_custom_1626584193325{padding-top: 20px !important;}.vc_custom_1627113250151{margin-top: 8px !important;background-color: #333333 !important;border-radius: 10px !important;}.vc_custom_1627113260851{margin-top: 8px !important;background-color: #333333 !important;border-radius: 10px !important;}.vc_custom_1627113250151{margin-top: 8px !important;background-color: #333333 !important;border-radius: 10px !important;}.vc_custom_1627113260851{margin-top: 8px !important;background-color: #333333 !important;border-radius: 10px !important;}.vc_custom_1627113250151{margin-top: 8px !important;background-color: #333333 !important;border-radius: 10px !important;}.vc_custom_1627113260851{margin-top: 8px !important;background-color: #333333 !important;border-radius: 10px !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>	</head>
 <body class="home page-template-default page page-id-26 custom-background visualcomposerstarter header-area-disabled wpb-js-composer js-comp-ver-6.7.0 vc_responsive">
 	<div class="container">
 		<div class="content-wrapper">
@@ -583,7 +758,7 @@ a {
 						<h1 class="entry-title">Home</h1>
 
 <div class="entry-content">
-	<div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1626629029281 vc_column-gap-20 vc_row-o-full-height vc_row-o-columns-middle vc_row-o-content-middle vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div id="hello" class="vc_row wpb_row vc_row-fluid vc_custom_1626957022724 vc_row-o-content-top vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
 	<div class="wpb_text_column wpb_content_element  vc_custom_1626608525894" >
 		<div class="wpb_wrapper">
 			<h1>Hello, my name is<br />
@@ -594,19 +769,147 @@ a {
 
 	<div class="wpb_text_column wpb_content_element " >
 		<div class="wpb_wrapper">
-			<h3 class="mbr-section-subtitle mbr-fonts-style mbr-pt-3 display-5">I am a Software Developer specializing in Mobile Applications.</h3>
-<h3 class="mbr-section-subtitle mbr-fonts-style mbr-pt-3 display-5">Currently working as Senior Mobile Developer at <a href="http://pandaepos.com/">Panda EPOS</a>, building and maintaining their entire range of iOS and Android apps.</h3>
+			<h5 class="mbr-section-subtitle mbr-fonts-style mbr-pt-3 display-5">I am a Mobile focused Software Engineer, hobbyist Game Developer and a Sci-Fi Fantasy book lover.</h5>
+<h5 class="mbr-section-subtitle mbr-fonts-style mbr-pt-3 display-5">Currently working as Senior Mobile Developer at <a href="http://pandaepos.com/" target="_blank" rel="noopener">Panda EPOS</a>, building and maintaining their entire range of iOS and Android apps.</h5>
 
 		</div>
 	</div>
-<div class="vc_btn3-container  btn-omega vc_btn3-inline vc_custom_1626608650208" ><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-square vc_btn3-style-flat vc_btn3-color-warning" href="mailto:hello@adeeltariq.com" title="">CONTACT ME</a></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
 	<div  class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1626584193325  grayscale">
 		
 		<figure class="wpb_wrapper vc_figure">
 			<div class="vc_single_image-wrapper vc_box_border_circle  vc_box_border_white"><img class="vc_single_image-img " src="https://adeeltariq.com/wp-content/uploads/2021/07/PicsArt_11-07-11.11.03-400x400.jpg" width="400" height="400" alt="That&#039;s me 😊" title="That&#039;s me 😊" /></div>
 		</figure>
 	</div>
-</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div>
+</div></div></div></div><div id="adeel-contact" class="vc_row wpb_row vc_row-fluid vc_custom_1626955814848 vc_row-o-content-middle vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_btn3-container  btn-alpha vc_btn3-inline" ><a style="background-color:rgb(255,255,255);background-color:rgba(255,255,255,0); color:#ffffff;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-square vc_btn3-style-custom vc_btn3-icon-left" href="https://www.twitter.com/adeeltariq0/" title="adeeltariq0" target="_blank"><i class="vc_btn3-icon fab fa-twitter"></i> adeeltariq0</a></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_btn3-container  btn-alpha vc_btn3-inline" ><a style="background-color:rgb(237,237,237);background-color:rgba(237,237,237,0); color:#ffffff;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-square vc_btn3-style-custom vc_btn3-icon-left" href="mailto:hello@adeeltariq.com" title="hello@adeeltariq.com"><i class="vc_btn3-icon fas fa-envelope"></i> hello@adeeltariq.com</a></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_btn3-container  btn-alpha vc_btn3-inline" ><a style="background-color:rgb(237,237,237);background-color:rgba(237,237,237,0); color:#ffffff;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-square vc_btn3-style-custom vc_btn3-icon-left" href="tel:+923046224060" title="+923046224060"><i class="vc_btn3-icon fas fa-phone-alt"></i> +923046224060</a></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_btn3-container  btn-alpha vc_btn3-inline" ><a style="background-color:rgb(237,237,237);background-color:rgba(237,237,237,0); color:#ffffff;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-square vc_btn3-style-custom vc_btn3-icon-left" href="https://github.com/adeeltariq" title="adeeltariq" target="_blank"><i class="vc_btn3-icon fab fa-github"></i> adeeltariq</a></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_btn3-container  btn-alpha vc_btn3-inline" ><a style="background-color:rgb(237,237,237);background-color:rgba(237,237,237,0); color:#ffffff;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-square vc_btn3-style-custom vc_btn3-icon-left" href="https://www.linkedin.com/in/adeeltariq0/" title="adeeltariq0" target="_blank"><i class="vc_btn3-icon fab fa-linkedin"></i> adeeltariq0</a></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_btn3-container  btn-alpha vc_btn3-inline" ><a style="background-color:rgb(237,237,237);background-color:rgba(237,237,237,0); color:#ffffff;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-square vc_btn3-style-custom vc_btn3-icon-left" href="https://www.google.com/search?q=Faisalabad%2C+Pakistan" title="Location" target="_blank"><i class="vc_btn3-icon fas fa-map-marker-alt"></i> Faisalabad, Pakistan</a></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1626930199952 vc_row-o-content-middle vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><h3 style="text-align: left" class="vc_custom_heading section-heading" id="projects">Projects</h3></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1626954300913 vc_column-gap-15 vc_row-o-content-top vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill"><div class="vc_column-inner vc_custom_1627113250151"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h4>We Eat Local (Android)</h4>
+<p>We Eat Local aims to connect local food farmers and producers with the consumer. Users can discover local foods, invite friends and build a profile in a gamified system made to encourage the growth of local food market.<br />
+Written in Java, using MVP pattern, Rx Java, Dagger DI, vector graphics, constraint layouts &amp; Lottie animations.</p>
+
+		</div>
+	</div>
+
+	<div  class="wpb_single_image wpb_content_element vc_align_left">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="848" height="887" src="https://adeeltariq.com/wp-content/uploads/2021/07/weeatlocal.png" class="vc_single_image-img attachment-large" alt="" loading="lazy" srcset="https://adeeltariq.com/wp-content/uploads/2021/07/weeatlocal.png 880w, https://adeeltariq.com/wp-content/uploads/2021/07/weeatlocal-287x300.png 287w, https://adeeltariq.com/wp-content/uploads/2021/07/weeatlocal-768x803.png 768w, https://adeeltariq.com/wp-content/uploads/2021/07/weeatlocal-848x887.png 848w" sizes="(max-width: 848px) 100vw, 848px" /></div>
+		</figure>
+	</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill"><div class="vc_column-inner vc_custom_1627113260851"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h4 class="AHFaub">Remote Control for Win, OSX &amp; Linux (Android)</h4>
+<p><span title="Text included in the summary" data-darkreader-inline-color="">Allows you to control your computers or laptops from an Android device.</span> The app connects to a server app on the controlled system<span title="Text included in the summary" data-darkreader-inline-color=""> using sockets over Wifi and controls the device by sending AHK commands (Win) and Java robot functions (Linux,OSX)</span>.<br />
+Written in Java, MVP pattern, Rx Java and Dagger DI.</p>
+
+		</div>
+	</div>
+
+	<div  class="wpb_single_image wpb_content_element vc_align_left">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="848" height="887" src="https://adeeltariq.com/wp-content/uploads/2021/07/remote.png" class="vc_single_image-img attachment-large" alt="" loading="lazy" srcset="https://adeeltariq.com/wp-content/uploads/2021/07/remote.png 880w, https://adeeltariq.com/wp-content/uploads/2021/07/remote-287x300.png 287w, https://adeeltariq.com/wp-content/uploads/2021/07/remote-768x803.png 768w, https://adeeltariq.com/wp-content/uploads/2021/07/remote-848x887.png 848w" sizes="(max-width: 848px) 100vw, 848px" /></div>
+		</figure>
+	</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1626954300913 vc_column-gap-15 vc_row-o-content-top vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill"><div class="vc_column-inner vc_custom_1627113250151"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h4>Chipmunk in a maze (Android)</h4>
+<p>Randomly generated mazes with traps and enemies. Plus<span title="Text included in the summary" data-darkreader-inline-color=""> a boon and curse system which modifies the game play every few levels.</span><br />
+Built with Unity 3D and C#. <span title="Text included in the summary" data-darkreader-inline-color="">There is an open source maze generator</span> integrated <span title="Text included in the summary" data-darkreader-inline-color="">and I&#8217;ve also developed a level editor.</span> <span title="Text included in the summary" data-darkreader-inline-color="">80% of the graphics and assets were created by me.</span></p>
+
+		</div>
+	</div>
+
+	<div  class="wpb_single_image wpb_content_element vc_align_left">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="826" height="620" src="https://adeeltariq.com/wp-content/uploads/2021/07/chip.png" class="vc_single_image-img attachment-large" alt="" loading="lazy" srcset="https://adeeltariq.com/wp-content/uploads/2021/07/chip.png 826w, https://adeeltariq.com/wp-content/uploads/2021/07/chip-300x225.png 300w, https://adeeltariq.com/wp-content/uploads/2021/07/chip-768x576.png 768w" sizes="(max-width: 826px) 100vw, 826px" /></div>
+		</figure>
+	</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill"><div class="vc_column-inner vc_custom_1627113260851"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h4 class="AHFaub">Guess the Star (web app)</h4>
+<p><span title="Text included in the summary" data-darkreader-inline-color="">A simple, one page web app/game. You score points by guessing one of the actors from a movie. I wrote an algorithm to generate <span class="ILfuVd"><span class="hgKElc">quizzes</span></span> from raw movie data.<br />
+Users can also choose from four difference data sets (Hollywood, Bollywood, Urdu, Punjabi).<br />
+</span>Written with <a href="https://vuejs.org/">Vue</a> web framework and Bootstrap. Data is powered by <a href="https://themoviedb.org/">The Movie DB</a>.</p>
+
+		</div>
+	</div>
+
+	<div  class="wpb_single_image wpb_content_element vc_align_left">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="848" height="636" src="https://adeeltariq.com/wp-content/uploads/2021/07/guess-the-start-1024x768.png" class="vc_single_image-img attachment-large" alt="" loading="lazy" srcset="https://adeeltariq.com/wp-content/uploads/2021/07/guess-the-start-1024x768.png 1024w, https://adeeltariq.com/wp-content/uploads/2021/07/guess-the-start-300x225.png 300w, https://adeeltariq.com/wp-content/uploads/2021/07/guess-the-start-768x576.png 768w, https://adeeltariq.com/wp-content/uploads/2021/07/guess-the-start-848x636.png 848w, https://adeeltariq.com/wp-content/uploads/2021/07/guess-the-start.png 1096w" sizes="(max-width: 848px) 100vw, 848px" /></div>
+		</figure>
+	</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1626954300913 vc_column-gap-15 vc_row-o-content-top vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill"><div class="vc_column-inner vc_custom_1627113250151"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h4>Movies App (Android)</h4>
+<p>Randomly generated mazes with traps and enemies. Plus<span title="Text included in the summary" data-darkreader-inline-color=""> a boon and curse system which modifies the game play every few levels.</span><br />
+Built with Unity 3D and C#. <span title="Text included in the summary" data-darkreader-inline-color="">There is an open source maze generator</span> integrated <span title="Text included in the summary" data-darkreader-inline-color="">and I&#8217;ve also developed a level editor.</span> <span title="Text included in the summary" data-darkreader-inline-color="">80% of the graphics and assets were created by me.</span></p>
+
+		</div>
+	</div>
+
+	<div  class="wpb_single_image wpb_content_element vc_align_left">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="826" height="620" src="https://adeeltariq.com/wp-content/uploads/2021/07/chip.png" class="vc_single_image-img attachment-large" alt="" loading="lazy" srcset="https://adeeltariq.com/wp-content/uploads/2021/07/chip.png 826w, https://adeeltariq.com/wp-content/uploads/2021/07/chip-300x225.png 300w, https://adeeltariq.com/wp-content/uploads/2021/07/chip-768x576.png 768w" sizes="(max-width: 826px) 100vw, 826px" /></div>
+		</figure>
+	</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill"><div class="vc_column-inner vc_custom_1627113260851"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h4 class="AHFaub">Badshah Wazir (Android, Desktop)</h4>
+<p><span title="Text included in the summary" data-darkreader-inline-color="">Traditional game of Badshah Wazir where one player guesses who the &#8216;thief&#8217; is among other players. 3 to 10 people can play over Wifi. AI players will join the game if less then 3 players are present.<br />
+</span></p>
+<p>Card graphics were created by me. Game is written in Kotlin and uses <a href="https://github.com/EsotericSoftware/kryonet">Kryonet</a> library for multiplayer networking. MVP pattern, Rx Java and Dagger DI were also used.</p>
+
+		</div>
+	</div>
+
+	<div  class="wpb_single_image wpb_content_element vc_align_left">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="848" height="887" src="https://adeeltariq.com/wp-content/uploads/2021/07/badshah-wazir.png" class="vc_single_image-img attachment-large" alt="" loading="lazy" srcset="https://adeeltariq.com/wp-content/uploads/2021/07/badshah-wazir.png 880w, https://adeeltariq.com/wp-content/uploads/2021/07/badshah-wazir-287x300.png 287w, https://adeeltariq.com/wp-content/uploads/2021/07/badshah-wazir-768x803.png 768w, https://adeeltariq.com/wp-content/uploads/2021/07/badshah-wazir-848x887.png 848w" sizes="(max-width: 848px) 100vw, 848px" /></div>
+		</figure>
+	</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1626930162750 vc_row-o-content-middle vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><h3 style="text-align: left" class="vc_custom_heading section-heading" id="experience">Experience</h3></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1626930317996 vc_row-has-fill vc_row-o-content-top vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div  class="wpb_single_image wpb_content_element vc_align_left">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<div class="vc_single_image-wrapper vc_box_border_circle  vc_box_border_grey"><img width="150" height="150" src="https://adeeltariq.com/wp-content/uploads/2021/07/index-150x150.png" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy" srcset="https://adeeltariq.com/wp-content/uploads/2021/07/index-150x150.png 150w, https://adeeltariq.com/wp-content/uploads/2021/07/index-300x300.png 300w, https://adeeltariq.com/wp-content/uploads/2021/07/index.png 512w" sizes="(max-width: 150px) 100vw, 150px" /></div>
+		</figure>
+	</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h3>Panda EPOS</h3>
+<p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1626930427374 vc_row-has-fill vc_row-o-content-top vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div  class="wpb_single_image wpb_content_element vc_align_left">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<div class="vc_single_image-wrapper vc_box_border_circle  vc_box_border_grey"><img width="150" height="150" src="https://adeeltariq.com/wp-content/uploads/2021/07/index-1-150x150.png" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy" srcset="https://adeeltariq.com/wp-content/uploads/2021/07/index-1-150x150.png 150w, https://adeeltariq.com/wp-content/uploads/2021/07/index-1-300x300.png 300w, https://adeeltariq.com/wp-content/uploads/2021/07/index-1.png 512w" sizes="(max-width: 150px) 100vw, 150px" /></div>
+		</figure>
+	</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h3>Big Gorilla Apps</h3>
+<p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1626930231167 vc_row-o-content-middle vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><h3 style="text-align: left" class="vc_custom_heading section-heading" id="skills">Skills</h3></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1626930239773 vc_row-o-content-middle vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><h3 style="text-align: left" class="vc_custom_heading section-heading" id="interests">Interests</h3></div></div></div></div>
 	</div><!--.entry-content-->
 					</div><!--.main-content-->
 				</div><!--.col-md-12-->
@@ -630,7 +933,203 @@ a {
 							</div>
 		</div>
 	</footer>
-	<script type='text/javascript' defer src='https://adeeltariq.com/wp-content/themes/visual-composer-starter/js/functions.min.js?ver=3.2.2' id='visualcomposerstarter-script-js'></script>
+	            <div class="wpfm-floating-wh-wrapper" >
+                                                     <div class="wpfm-menu-wrapper wpfm-template-4" data-pos-offset-var="0" data-disable-double-touch = "0">
+                                    <nav id="wpfm-floating-menu-nav" class="wpfm-menu-nav wpfm wpfm-position-left">
+                                        <ul>
+                                                                                                <li class=" ">
+                                                        <a title="" class="wpfm-menu-link" href="#hello"  >
+                                                                                                                            <span class='wpfm-icon-block'>                
+                                                                     
+                                                                        <i class="fas fa-user-alt" aria-hidden="true"></i>
+                                                                              
+                                                                </span>
+                                                                                                                                    <span class='name wpfm-menu-name'>
+                                                                        Hello                                                                    </span>
+                                                                                                                                           
+                                                        </a>
+                                                                                                            </li>
+                                                                                                        <li class=" ">
+                                                        <a title="" class="wpfm-menu-link" href="#projects"  >
+                                                                                                                            <span class='wpfm-icon-block'>                
+                                                                     
+                                                                        <i class="fas fa-drafting-compass" aria-hidden="true"></i>
+                                                                              
+                                                                </span>
+                                                                                                                                    <span class='name wpfm-menu-name'>
+                                                                        Projects                                                                    </span>
+                                                                                                                                           
+                                                        </a>
+                                                                                                            </li>
+                                                                                                        <li class=" ">
+                                                        <a title="" class="wpfm-menu-link" href="#experience"  >
+                                                                                                                            <span class='wpfm-icon-block'>                
+                                                                     
+                                                                        <i class="fas fa-building" aria-hidden="true"></i>
+                                                                              
+                                                                </span>
+                                                                                                                                    <span class='name wpfm-menu-name'>
+                                                                        Experience                                                                    </span>
+                                                                                                                                           
+                                                        </a>
+                                                                                                            </li>
+                                                                                                        <li class=" ">
+                                                        <a title="" class="wpfm-menu-link" href="#skills"  >
+                                                                                                                            <span class='wpfm-icon-block'>                
+                                                                     
+                                                                        <i class="fas fa-hard-hat" aria-hidden="true"></i>
+                                                                              
+                                                                </span>
+                                                                                                                                    <span class='name wpfm-menu-name'>
+                                                                        Skills                                                                    </span>
+                                                                                                                                           
+                                                        </a>
+                                                                                                            </li>
+                                                                                                        <li class=" ">
+                                                        <a title="" class="wpfm-menu-link" href="#interests"  >
+                                                                                                                            <span class='wpfm-icon-block'>                
+                                                                     
+                                                                        <i class="fas fa-palette" aria-hidden="true"></i>
+                                                                              
+                                                                </span>
+                                                                                                                                    <span class='name wpfm-menu-name'>
+                                                                        Interests                                                                    </span>
+                                                                                                                                           
+                                                        </a>
+                                                                                                            </li>
+                                                      
+                                        </ul>             
+                                    </nav>
+                                </div>
+                                                        <style type="text/css">
+                                /* Font Icon Background */
+                                .wpfm-template-1 ul li a,.wpfm-template-1 ul li .wpfm-icon-block,.wpfm-template-1 .wpfm-position-right ul li a:hover .wpfm-icon-block, .wpfm-template-1 .wpfm-position-top-right ul li a:hover .wpfm-icon-block, .wpfm-template-1 .wpfm-position-bottom-right ul li a:hover .wpfm-icon-block,
+                                .wpfm-template-1 .wpfm-position-top-left ul li.wpfm-     title-hidden a:hover .wpfm-icon-block , .wpfm-template-1 .wpfm-position-bottom-left ul li.wpfm-title-hidden a:hover .wpfm-icon-block,.wpfm-template-1 .wpfm-position-left ul li.wpfm-title-hidden a:hover .wpfm-icon-block,
+                                .wpfm-template-1 .wpfm-position-top-right ul li.wpfm-title-hidden a:hover .wpfm-icon-block , .wpfm-template-1 .wpfm-position-bottom-right ul li.wpfm-title-hidden a:hover .wpfm-icon-block,.wpfm-template-1 .wpfm-position-right ul li.wpfm-title-hidden a:hover .wpfm-icon-block,
+                                .wpfm-template-1 .wpfm-position-left ul li a:hover .wpfm-icon-block, .wpfm-template-1 .wpfm-position-top-left ul li a:hover .wpfm-icon-block, .wpfm-template-1 .wpfm-position-bottom-left ul li a:hover .wpfm-icon-block,
+                                .wpfm-template-2 .wpfm-menu-nav.wpfm-position-left ul li a, .wpfm-template-2 .wpfm-menu-nav.wpfm-position-top-left ul li  a, .wpfm-template-2 .wpfm-menu-nav.wpfm-position-bottom-left ul li a,
+                                .wpfm-template-2 .wpfm-menu-nav.wpfm-position-right ul li a, .wpfm-template-2 .wpfm-menu-nav.wpfm-position-top-right ul li a, .wpfm-template-2 .wpfm-menu-nav.wpfm-position-bottom-right ul li a,
+                                .wpfm-template-3 .wpfm-menu-nav.wpfm-position-left ul > li > a span.wpfm-icon-block, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-top-left ul > li > a span.wpfm-icon-block, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-bottom-left ul > li > a span.wpfm-icon-block,
+                                .wpfm-template-3 .wpfm-menu-nav.wpfm-position-left ul li a:hover, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-top-left ul li a:hover, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-bottom-left ul li a:hover,
+                                .wpfm-template-3 .wpfm-menu-nav.wpfm-position-right ul > li > a span.wpfm-icon-block,.wpfm-template-3 .wpfm-menu-nav.wpfm-position-right ul li > a:hover,
+                                .wpfm-template-4 ul li .wpfm-icon-block
+                                { 
+                                    background: #333333;                    
+                                }
+
+                                /* Menu Background for template 5 */
+                                .wpfm-template-5 ul,.wpfm-template-5 .wpfm-nav-strech-trigger span
+                                {
+                                    background: ;
+                                }
+
+                                /* For Title Color, Font Family */   
+                                .wpfm-template-1 .wpfm-menu-nav.wpfm-position-right ul li > a:hover > span.wpfm-menu-name, .wpfm-template-1 .wpfm-menu-nav.wpfm-position-top-right ul li > a:hover > span.wpfm-menu-name,
+                                .wpfm-template-1 .wpfm-menu-nav.wpfm-position-bottom-right ul li > a:hover > span.wpfm-menu-name,
+                                .wpfm-template-1 ul li .wpfm-menu-name,
+                                .wpfm-template-2 .wpfm-menu-nav ul li a span.wpfm-menu-name,
+                                .wpfm-template-3 .wpfm-menu-nav.wpfm-position-left ul li a span.wpfm-menu-name,.wpfm-template-3 .wpfm-menu-nav.wpfm-position-right ul li a span.wpfm-menu-name,
+                                .wpfm-template-4 ul li .wpfm-menu-name,.wpfm-template-3 .wpfm-menu-nav ul li a span.wpfm-menu-name, .wpfm-template-3 .wpfm-menu-nav ul li a span.wpfm-menu-name,
+                                .wpfm-template-5 .wpfm-menu-nav ul li a span.wpfm-menu-name
+                                { 
+                                    color:#eeeeee;
+                                    font-family:default; 
+                                }
+                                /* For Title Font Size */  
+                                .wpfm-template-1 a span.wpfm-menu-name,
+                                .wpfm-template-2 .wpfm-menu-nav ul li a span.wpfm-menu-name,
+                                .wpfm-template-3 .wpfm-menu-nav ul li a span.wpfm-menu-name,.wpfm-template-3 .wpfm-menu-nav ul li a span.wpfm-menu-name,
+                                .wpfm-template-4 ul li .wpfm-menu-name,
+                                .wpfm-template-5 .wpfm-menu-nav ul li a span.wpfm-menu-name
+                                { 
+                                    font-size:8px;
+                                }
+                                /* For Icon Size */   
+                                .wpfm-template-1 .wpfm-menu-nav.wpfm-position-right ul li > a .wpfm-icon-block i,
+                                .wpfm-template-2 .wpfm-menu-nav ul li a span i,
+                                .wpfm-template-3 .wpfm-menu-nav ul li a span i,
+                                .wpfm-template-4 .wpfm-menu-nav ul li a span i,
+                                .wpfm-template-5 .wpfm-menu-nav ul li a span.wpfm-icon-block i
+                                {
+                                    font-size:px;
+                                }
+
+                                /* Title Background Color For Template 4 */
+                                .wpfm-template-4 .wpfm-menu-nav ul li >a:hover >span.wpfm-menu-name
+                                { 
+                                    background:;  
+                                }
+                                /* For Icon margin */  
+                                .wpfm-template-1 ul li, .wpfm-template-2 ul li, .wpfm-template-3 ul li, .wpfm-template-4 ul li,
+                                .wpfm-template-4 ul li a,
+                                .wpfm-template-5 .wpfm-menu-nav ul li a
+                                {
+                                    margin-bottom:px;
+                                }
+                                /** Tooltip Title */
+                                .wpfm-template-1 ul li > .wpfm-tootltip-title, 
+                                .wpfm-template-2 ul li > .wpfm-tootltip-title, 
+                                .wpfm-template-3 ul li > .wpfm-tootltip-title, 
+                                .wpfm-template-4 ul li > .wpfm-tootltip-title,
+                                .wpfm-template-8.wpfm-position-right .wpfm-tootltip-title, .wpfm-template-8.wpfm-position-top-right .wpfm-tootltip-title,.wpfm-template-8.wpfm-position-bottom-right .wpfm-tootltip-title,
+                                .wpfm-template-5 .wpfm-menu-nav ul li > span.wpfm-tootltip-title
+                                {
+                                    color: #eeeeee;
+                                    background: ;
+                                    font-size: 8px;
+                                    font-family: default;
+                                    text-transform: uppercase;
+                                }
+
+                                /* Border color for tooltip text arrow */
+                                .wpfm-template-1 .wpfm-position-right ul li > .wpfm-tootltip-title:after, .wpfm-template-1 .wpfm-position-top-right ul li > .wpfm-tootltip-title:after, .wpfm-template-1 .wpfm-position-bottom-right ul li > .wpfm-tootltip-title:after,
+                                .wpfm-template-2 .wpfm-position-right ul li > .wpfm-tootltip-title:after, .wpfm-template-2 .wpfm-position-top-right ul li > .wpfm-tootltip-title:after, .wpfm-template-2 .wpfm-position-bottom-right ul li > .wpfm-tootltip-title:after, 
+                                .wpfm-template-3 .wpfm-position-right ul li > .wpfm-tootltip-title:after, .wpfm-template-3 .wpfm-position-top-right ul li > .wpfm-tootltip-title:after, .wpfm-template-3 .wpfm-position-bottom-right ul li > .wpfm-tootltip-title:after,                
+                                .wpfm-template-4 .wpfm-position-right ul li > .wpfm-tootltip-title:after, .wpfm-template-4 .wpfm-position-top-right ul li > .wpfm-tootltip-title:after,                 
+                                .wpfm-template-4 .wpfm-position-bottom-right ul li > .wpfm-tootltip-title:after,
+                                .wpfm-template-5 .wpfm-position-right ul li  span.wpfm-tootltip-title:before, .wpfm-template-5 .wpfm-position-top-right ul li  span.wpfm-tootltip-title:before, .wpfm-template-5 .wpfm-menu-nav.wpfm-position-bottom-right ul li  span.wpfm-tootltip-title:before
+                                {
+                                    border-color:transparent transparent transparent #222;
+                                }
+                                .wpfm-template-1 .wpfm-position-left ul li > .wpfm-tootltip-title:after, .wpfm-template-1 .wpfm-position-top-left ul li > .wpfm-tootltip-title:after, .wpfm-template-1 .wpfm-position-bottom-left ul li > .wpfm-tootltip-title:after, .wpfm-template-2 .wpfm-position-left ul li > .wpfm-tootltip-title:after,
+                                .wpfm-template-2 .wpfm-position-top-left ul li > .wpfm-tootltip-title:after, .wpfm-template-2 .wpfm-position-bottom-left ul li > .wpfm-tootltip-title:after, .wpfm-template-3 .wpfm-position-left ul li > .wpfm-tootltip-title:after, .wpfm-template-3 .wpfm-position-top-left ul li > .wpfm-tootltip-title:after, 
+                                .wpfm-template-3 .wpfm-position-bottom-left ul li > .wpfm-tootltip-title:after,
+                                .wpfm-template-3 .wpfm-position-left ul li > .wpfm-tootltip-title:after, .wpfm-template-3 .wpfm-position-top-left ul li > .wpfm-tootltip-title:after, .wpfm-template-3 .wpfm-position-bottom-left ul li > .wpfm-tootltip-title:after,
+                                .wpfm-template-4 .wpfm-position-left ul li > .wpfm-tootltip-title:after, .wpfm-template-4 .wpfm-position-top-left ul li > .wpfm-tootltip-title:after, .wpfm-template-4 .wpfm-position-bottom-left ul li > .wpfm-tootltip-title:after,
+                                .wpfm-template-5 .wpfm-position-left ul li  span.wpfm-tootltip-title:before, .wpfm-template-5 .wpfm-position-top-left ul li  span.wpfm-tootltip-title:before, .wpfm-template-5 .wpfm-menu-nav.wpfm-position-bottom-left ul li  span.wpfm-tootltip-title:before
+                                {
+                                    border-color:transparent #222 transparent transparent;  
+                                }
+
+                                /* active hover color for inline navigation and sticky menu */
+                                .wpfm-template-1 ul li a.wpfm-active-nav, .wpfm-template-1 ul li a.wpfm-active-nav .wpfm-icon-block, .wpfm-template-1 .wpfm-position-left ul li a.wpfm-active-nav:hover .wpfm-icon-block, .wpfm-template-1 .wpfm-position-top-left ul li a.wpfm-active-nav:hover .wpfm-icon-block, .wpfm-template-1 .wpfm-position-bottom-left ul li a.wpfm-active-nav:hover .wpfm-icon-block,
+                                .wpfm-template-1 .wpfm-position-right ul li a.wpfm-active-nav:hover .wpfm-icon-block, .wpfm-template-1 .wpfm-position-top-right ul li a.wpfm-active-nav:hover .wpfm-icon-block, .wpfm-template-1 .wpfm-position-bottom-right ul li a.wpfm-active-nav:hover .wpfm-icon-block, .wpfm-template-1 .wpfm-position-left ul li.wpfm-title-hidden a.wpfm-active-nav:hover .wpfm-icon-block, .wpfm-template-1 .wpfm-position-top-left ul li.wpfm-title-hidden a.wpfm-active-nav:hover .wpfm-icon-block, .wpfm-template-1 .wpfm-position-bottom-left ul li.wpfm-title-hidden a.wpfm-active-nav:hover .wpfm-icon-block,
+                                .wpfm-template-2 .wpfm-menu-nav ul li a.wpfm-active-nav,
+                                .wpfm-template-3 .wpfm-menu-nav.wpfm-position-left ul > li > a.wpfm-active-nav span.wpfm-icon-block, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-top-left ul > li > a.wpfm-active-nav span.wpfm-icon-block, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-bottom-left ul > li > a.wpfm-active-nav span.wpfm-icon-block,
+                                .wpfm-template-3 .wpfm-menu-nav.wpfm-position-right ul > li > a.wpfm-active-nav span.wpfm-icon-block, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-top-right ul > li > a.wpfm-active-nav span.wpfm-icon-block, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-bottom-right ul > li > a.wpfm-active-nav span.wpfm-icon-block, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-left ul li a.wpfm-active-nav, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-top-left ul li a.wpfm-active-nav, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-bottom-left ul li a.wpfm-active-nav, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-right ul li a.wpfm-active-nav,
+                                .wpfm-template-3 .wpfm-menu-nav.wpfm-position-top-right ul li a.wpfm-active-nav, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-bottom-right ul li a.wpfm-active-nav, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-left ul li a.wpfm-active-nav:hover, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-top-left ul li a.wpfm-active-nav:hover, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-bottom-left ul li a.wpfm-active-nav:hover, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-right ul li a.wpfm-active-nav:hover, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-top-right ul li a.wpfm-active-nav:hover, .wpfm-template-3 .wpfm-menu-nav.wpfm-position-bottom-right ul li a.wpfm-active-nav:hover,
+                                .wpfm-template-4 .wpfm-position-left ul li a:hover .wpfm-icon-block, .wpfm-template-4 .wpfm-position-top-left ul li a:hover .wpfm-icon-block, .wpfm-template-4 .wpfm-position-bottom-left ul li a:hover .wpfm-icon-block, .wpfm-template-4 .wpfm-position-right ul li a:hover .wpfm-icon-block, .wpfm-template-4 .wpfm-position-top-right ul li a:hover .wpfm-icon-block, .wpfm-template-4 .wpfm-position-bottom-right ul li a:hover .wpfm-icon-block, .wpfm-template-4 .wpfm-position-left ul li a.wpfm-active-nav  .wpfm-icon-block, .wpfm-template-4 .wpfm-position-top-left ul li .wpfm-active-nav .wpfm-icon-block, .wpfm-template-4 .wpfm-position-bottom-left ul li a.wpfm-active-nav  .wpfm-icon-block,
+                                .wpfm-template-4 .wpfm-position-right ul li a.wpfm-active-nav  .wpfm-icon-block, .wpfm-template-4 .wpfm-position-top-right ul li a.wpfm-active-nav  .wpfm-icon-block, .wpfm-template-4 .wpfm-position-bottom-right ul li a.wpfm-active-nav  .wpfm-icon-block
+                                {
+                                    background:#424242;
+                                }
+
+                                /* Active class implementation in template 5 */
+                                .wpfm-template-5 .wpfm-menu-nav ul li a:hover span.wpfm-icon-block i, .wpfm-template-5 .wpfm-menu-nav ul li a:hover span.wpfm-menu-name, .wpfm-template-5 .wpfm-menu-nav ul li a.wpfm-active-nav span.wpfm-icon-block i, .wpfm-template-5 .wpfm-menu-nav ul li a.wpfm-active-nav span.wpfm-menu-name
+                                {
+                                    color:#424242 !important;
+                                }
+                                .wpfm-template-5 .wpfm-nav-strech-trigger span i{
+                                    color:                                }
+
+                                .wpfm-template-5 .wpfm-nav-close-trigger span i{
+                                    color:                                }
+                            </style>
+                           
+                                        </div>
+            <link rel='stylesheet' id='vc_font_awesome_5_shims-css'  href='https://adeeltariq.com/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/v4-shims.min.css?ver=6.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='vc_font_awesome_5-css'  href='https://adeeltariq.com/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/all.min.css?ver=6.7.0' type='text/css' media='all' />
+<script type='text/javascript' defer src='https://adeeltariq.com/wp-content/themes/visual-composer-starter/js/functions.min.js?ver=3.2.2' id='visualcomposerstarter-script-js'></script>
 <script type='text/javascript' src='https://adeeltariq.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.7.0' id='wpb_composer_front_js-js'></script>
 </body>
 </html>
