@@ -694,7 +694,7 @@ a {
 }
 
 .wpfm-template-4 ul li .wpfm-icon-block {
-  width: 100%;
+  width: 100% !important;
 }
 
 }
@@ -739,10 +739,24 @@ a {
 
 .wpfm-template-4 ul li .wpfm-icon-block {
   height: 52px;
+	width: 64px;
 }
 
 .wpfm-template-1 ul li, .wpfm-template-2 ul li, .wpfm-template-3 ul li, .wpfm-template-4 ul li {
   height: 52px;
+}
+}
+
+@media only screen and (max-width: 1030px) and (min-width: 700px) {
+
+	.wpfm-template-4 .wpfm-position-left ul li a, .wpfm-template-4 .wpfm-position-top-left ul li a, .wpfm-template-4 .wpfm-position-bottom-left ul li a {
+    left: initial;
+    transform: initial;
+    -webkit-transform: initial;
+    -moz-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    width: 64px;
 }
 
 }
