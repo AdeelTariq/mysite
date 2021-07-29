@@ -495,10 +495,17 @@
 	}
 </style>
 <link rel='stylesheet' id='js_composer_front-css'  href='https://adeeltariq.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bsf-Defaults-css'  href='https://adeeltariq.com/wp-content/uploads/smile_fonts/Defaults/Defaults.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ultimate-style-css'  href='https://adeeltariq.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/style.min.css?ver=3.19.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ultimate-animate-css'  href='https://adeeltariq.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/animate.min.css?ver=3.19.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ultimate-modal-css'  href='https://adeeltariq.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/modal.min.css?ver=3.19.2' type='text/css' media='all' />
 <link rel='stylesheet' id='wpfm-google-fonts-css'  href='//fonts.googleapis.com/css?family=Roboto%3A100italic%2C100%2C300italic%2C300%2C400italic%2C400%2C500italic%2C500%2C700italic%2C700%2C900italic%2C900&#038;ver=5.7.2' type='text/css' media='all' />
 <script type='text/javascript' src='https://adeeltariq.com/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
 <script type='text/javascript' src='https://adeeltariq.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
 <script type='text/javascript' src='https://adeeltariq.com/wp-content/plugins/wp-floating-menu/js/frontend.js?ver=1.4.4' id='wpfm-frontend-js-js'></script>
+<script type='text/javascript' src='https://adeeltariq.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/ultimate-params.min.js?ver=3.19.2' id='ultimate-vc-params-js'></script>
+<script type='text/javascript' src='https://adeeltariq.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/modernizr-custom.min.js?ver=3.19.2' id='ultimate-modernizr-js'></script>
+<script type='text/javascript' src='https://adeeltariq.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/modal-all.min.js?ver=3.19.2' id='ultimate-modal-all-js'></script>
 <link rel="https://api.w.org/" href="https://adeeltariq.com/index.php/wp-json/" /><link rel="alternate" type="application/json" href="https://adeeltariq.com/index.php/wp-json/wp/v2/pages/26" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://adeeltariq.com/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 5.7.2" />
 <link rel="canonical" href="https://adeeltariq.com/" />
@@ -780,10 +787,26 @@ a {
 	padding-bottom: 0 !important;
 }
 
-.model-popup-btn span strong:hover {
-	text-decoration:underline;
+.clickable {
+	cursor:pointer;
+}
+.clickable > .vc_column-inner {
+	background:#333333;
+}
+.clickable > .vc_column-inner:hover {
+	background:#3a3a3a;
+}
+
+.overlay-fade {
+    -webkit-transition: opacity .1s,visibility .1s;
+    transition: opacity .1s,visibility .1s;
+}
+
+.overlay-fade.ult-open {
+    -webkit-transition: opacity .1s;
+    transition: opacity .1s;
 }		</style>
-		<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1627123843791{margin-top: 64px !important;}.vc_custom_1627233376338{margin-top: 8px !important;background-color: #333333 !important;border-radius: 10px !important;}.vc_custom_1627233376338{margin-top: 8px !important;background-color: #333333 !important;border-radius: 10px !important;}.vc_custom_1627233376338{margin-top: 8px !important;background-color: #333333 !important;border-radius: 10px !important;}.vc_custom_1626608525894{padding-top: 20px !important;}.vc_custom_1627138090795{padding-top: 20px !important;}.vc_custom_1627236939952{margin-top: -16px !important;margin-bottom: -8px !important;}.vc_custom_1627236916470{margin-top: -16px !important;margin-bottom: -8px !important;}.vc_custom_1627490226022{margin-top: -16px !important;margin-bottom: -8px !important;}.vc_custom_1627124058083{margin-top: 8px !important;margin-right: 8px !important;background-color: #333333 !important;border-radius: 10px !important;}.vc_custom_1627124073166{margin-top: 8px !important;margin-right: 8px !important;background-color: #333333 !important;border-radius: 10px !important;}.vc_custom_1627491225728{margin-top: 8px !important;}.vc_custom_1627491403363{margin-top: 8px !important;}.vc_custom_1627124152379{margin-top: 8px !important;margin-right: 8px !important;background-color: #333333 !important;border-radius: 10px !important;}.vc_custom_1627124160015{margin-top: 8px !important;margin-right: 8px !important;background-color: #333333 !important;border-radius: 10px !important;}.vc_custom_1627124277122{margin-top: 8px !important;margin-right: 8px !important;background-color: #333333 !important;border-radius: 10px !important;}.vc_custom_1627124284490{margin-top: 8px !important;margin-right: 8px !important;background-color: #333333 !important;border-radius: 10px !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>	</head>
+		<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1627123843791{margin-top: 64px !important;}.vc_custom_1627233376338{margin-top: 8px !important;background-color: #333333 !important;border-radius: 10px !important;}.vc_custom_1627233376338{margin-top: 8px !important;background-color: #333333 !important;border-radius: 10px !important;}.vc_custom_1627233376338{margin-top: 8px !important;background-color: #333333 !important;border-radius: 10px !important;}.vc_custom_1626608525894{padding-top: 20px !important;}.vc_custom_1627138090795{padding-top: 20px !important;}.vc_custom_1627236939952{margin-top: -16px !important;margin-bottom: -8px !important;}.vc_custom_1627236916470{margin-top: -16px !important;margin-bottom: -8px !important;}.vc_custom_1627490226022{margin-top: -16px !important;margin-bottom: -8px !important;}.vc_custom_1627585425678{margin-top: 8px !important;margin-right: 8px !important;border-radius: 10px !important;}.vc_custom_1627124073166{margin-top: 8px !important;margin-right: 8px !important;background-color: #333333 !important;border-radius: 10px !important;}.vc_custom_1627582235504{margin-top: 8px !important;}.vc_custom_1627582256747{margin-top: 8px !important;}.vc_custom_1627124152379{margin-top: 8px !important;margin-right: 8px !important;background-color: #333333 !important;border-radius: 10px !important;}.vc_custom_1627124160015{margin-top: 8px !important;margin-right: 8px !important;background-color: #333333 !important;border-radius: 10px !important;}.vc_custom_1627124277122{margin-top: 8px !important;margin-right: 8px !important;background-color: #333333 !important;border-radius: 10px !important;}.vc_custom_1627124284490{margin-top: 8px !important;margin-right: 8px !important;background-color: #333333 !important;border-radius: 10px !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>	</head>
 <body class="home page-template-default page page-id-26 custom-background visualcomposerstarter header-area-disabled wpb-js-composer js-comp-ver-6.7.0 vc_responsive">
 	<div class="container">
 		<div class="content-wrapper">
@@ -888,50 +911,12 @@ a {
 
 		</div>
 	</div>
-</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div id="projects" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding vc_row-o-content-middle vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><h3 style="text-align: left" class="vc_custom_heading section-heading" >Projects</h3></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-o-content-top vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill"><div class="vc_column-inner vc_custom_1627124058083"><div class="wpb_wrapper">		<!-- HTML DESIGN HERE -->
-		<div class="maw__modal_popup_box" data-bodybg="#111111" style="justify-content: center; display: flex;">
-							<button class="mega-uae-btn model-popup-btn popup-106 hvr-fade" data-id="popup-106" style="color: #eeeeee;background: rgba(0,0,0,0.01) ; border: px solid #269CE9; border-radius: 0px; font-size: 24px; padding: 0px 0px;" data-text=""> 
-					<span><i style="padding-right: 5px;" class="fa "> </i> <strong>We Eat Local (Android)</strong></span>			
-					<span style="background: ; padding: 0px 0; color: #ffffff;" class="modal-popup-after"></span>
-				</button>
-				<div style="clear: both;"></div>
-			
-			
-			<div class="mega-model-popup Default animated" id="popup-106" style="position:fixed;display: none; margin-top: 60px; width: 95%;max-width: 900px; background: #424242;">
-				<span class="b-close"><span><img src="https://adeeltariq.com/wp-content/plugins/mega-addons-for-visual-composer/render/../images/cross.png"></span></span>
-			    <div class="model-popup-container">
-			    	<h2 style="border-bottom: 1px solid rgba(0,0,0,0.01); text-align: center; font-size: 0px; line-height: 0; color: ; background: ; margin: 0px; padding: 0px 20px;">
-			    					    	</h2>
-			      <span style="padding: 16px 16px; display: block;">
-			      	<h3><strong>We Eat Local (Android)</strong></h3>
-<p>We Eat Local aims to connect local food farmers and producers with the consumer. Users can discover local foods, invite friends and build a profile in a gamified system made to encourage the growth of local food market. Written in Java using MVP pattern, Rx Java, Dagger DI, Retrofit, Firebase, Leak Canary, Google Maps and Lottie.</p>
-<p>&nbsp;</p>
-<p><img loading="lazy" class="alignnone size-medium wp-image-194" src="https://adeeltariq.com/wp-content/uploads/2021/07/weeatlocal-287x300.png" alt="" width="287" height="300" srcset="https://adeeltariq.com/wp-content/uploads/2021/07/weeatlocal-287x300.png 287w, https://adeeltariq.com/wp-content/uploads/2021/07/weeatlocal-768x803.png 768w, https://adeeltariq.com/wp-content/uploads/2021/07/weeatlocal-848x887.png 848w, https://adeeltariq.com/wp-content/uploads/2021/07/weeatlocal.png 880w" sizes="(max-width: 287px) 100vw, 287px" /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-			      </span>
-			    </div>
-			</div>
-		</div>
-		<style>
-			.maw__modal_popup_box .popup-106:hover {
-				background:  !important;
-				color: #ffffff !important;
-			}
-
-		</style>
-        <!-- HTML END DESIGN HERE -->
-		
-	<div class="wpb_text_column wpb_content_element  vc_custom_1627491225728" >
+</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div id="projects" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding vc_row-o-content-middle vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><h3 style="text-align: left" class="vc_custom_heading section-heading" >Projects<br />
+<small style="color:#ccc;font-size:16px;">Click the cards for more</small></h3></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-o-content-top vc_row-flex"><div class="clickable wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill" id="weeatlocal"><div class="vc_column-inner vc_custom_1627585425678"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  vc_custom_1627582235504" >
 		<div class="wpb_wrapper">
-			<p>We Eat Local aims to connect consumers with local food farmers and producers. Users discover local foods, invite friends and build a profile in a gamified system made to encourage the growth of local food market.</p>
+			<h4 style="text-align: center;">We Eat Local (Android)</h4>
+<p>We Eat Local aims to connect consumers with local food farmers and producers. Users discover local foods, invite friends and build a profile in a gamified system made to encourage the growth of local food market.</p>
 
 		</div>
 	</div>
@@ -942,53 +927,11 @@ a {
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="848" height="887" src="https://adeeltariq.com/wp-content/uploads/2021/07/weeatlocal.png" class="vc_single_image-img attachment-large" alt="" loading="lazy" srcset="https://adeeltariq.com/wp-content/uploads/2021/07/weeatlocal.png 880w, https://adeeltariq.com/wp-content/uploads/2021/07/weeatlocal-287x300.png 287w, https://adeeltariq.com/wp-content/uploads/2021/07/weeatlocal-768x803.png 768w, https://adeeltariq.com/wp-content/uploads/2021/07/weeatlocal-848x887.png 848w" sizes="(max-width: 848px) 100vw, 848px" /></div>
 		</figure>
 	</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill"><div class="vc_column-inner vc_custom_1627124073166"><div class="wpb_wrapper">		<!-- HTML DESIGN HERE -->
-		<div class="maw__modal_popup_box" data-bodybg="#111111" style="justify-content: center; display: flex;">
-							<button class="mega-uae-btn model-popup-btn popup-124 hvr-fade" data-id="popup-124" style="color: #eeeeee;background: rgba(0,0,0,0.01) ; border: px solid #269CE9; border-radius: 0px; font-size: 24px; padding: 0px 0px;" data-text=""> 
-					<span><i style="padding-right: 5px;" class="fa "> </i> <strong>Remote App (Android)</strong></span>			
-					<span style="background: ; padding: 0px 0; color: #ffffff;" class="modal-popup-after"></span>
-				</button>
-				<div style="clear: both;"></div>
-			
-			
-			<div class="mega-model-popup Default animated" id="popup-124" style="position:fixed;display: none; margin-top: 60px; width: 95%;max-width: 900px; background: #424242;">
-				<span class="b-close"><span><img src="https://adeeltariq.com/wp-content/plugins/mega-addons-for-visual-composer/render/../images/cross.png"></span></span>
-			    <div class="model-popup-container">
-			    	<h2 style="border-bottom: 1px solid rgba(0,0,0,0.01); text-align: center; font-size: 0px; line-height: 0; color: ; background: ; margin: 0px; padding: 0px 20px;">
-			    					    	</h2>
-			      <span style="padding: 16px 16px; display: block;">
-			      	<h3><strong>We Eat Local (Android)</strong></h3>
-<p>We Eat Local aims to connect local food farmers and producers with the consumer. Users can discover local foods, invite friends and build a profile in a gamified system made to encourage the growth of local food market. Written in Java using MVP pattern, Rx Java, Dagger DI, Retrofit, Firebase, Leak Canary, Google Maps and Lottie.</p>
-<p>&nbsp;</p>
-<p><img loading="lazy" class="alignnone size-medium wp-image-194" src="https://adeeltariq.com/wp-content/uploads/2021/07/weeatlocal-287x300.png" alt="" width="287" height="300" srcset="https://adeeltariq.com/wp-content/uploads/2021/07/weeatlocal-287x300.png 287w, https://adeeltariq.com/wp-content/uploads/2021/07/weeatlocal-768x803.png 768w, https://adeeltariq.com/wp-content/uploads/2021/07/weeatlocal-848x887.png 848w, https://adeeltariq.com/wp-content/uploads/2021/07/weeatlocal.png 880w" sizes="(max-width: 287px) 100vw, 287px" /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-			      </span>
-			    </div>
-			</div>
-		</div>
-		<style>
-			.maw__modal_popup_box .popup-124:hover {
-				background:  !important;
-				color: #ffffff !important;
-			}
-
-		</style>
-        <!-- HTML END DESIGN HERE -->
-		
-	<div class="wpb_text_column wpb_content_element  vc_custom_1627491403363" >
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill"><div class="vc_column-inner vc_custom_1627124073166"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  vc_custom_1627582256747" >
 		<div class="wpb_wrapper">
-			<p><span title="Text included in the summary" data-darkreader-inline-color="">Allows you to control your computers or laptops from an Android device.</span> The app connects to a companion app on the controlled device<span title="Text included in the summary" data-darkreader-inline-color=""> using sockets over Wifi and controls the device by sending system commands</span>.</p>
+			<h4 style="text-align: center;">Remote App (Android)</h4>
+<p><span title="Text included in the summary" data-darkreader-inline-color="">Allows you to control your computers or laptops from an Android device.</span> The app connects to a companion app on the controlled device<span title="Text included in the summary" data-darkreader-inline-color=""> using sockets over Wifi and controls the device by sending system commands</span>.</p>
 
 		</div>
 	</div>
@@ -1061,7 +1004,7 @@ a {
 	</div>
 </div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div id="skills" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding vc_row-o-content-middle vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><h3 style="text-align: left" class="vc_custom_heading section-heading" >Skills</h3></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div id="interests" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-o-content-top vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">		
 							<a style="text-decoration: none;color: #000;">
-					<div class="mega_info_box_2 mega-info-box-395 nonesss nones ">
+					<div class="mega_info_box_2 mega-info-box-351 nonesss nones ">
 				<div class="mega-info-header">
 																<i class="fas fa-terminal" aria-hidden="true" style="border: 0px solid ; border-radius: 0px; background: ; width: px; height: px; line-height: <br />
 <b>Warning</b>:  A non-numeric value encountered in <b>/Applications/XAMPP/xamppfiles/htdocs/adeeltariq.com/wp-content/plugins/mega-addons-for-visual-composer/render/infobox.php</b> on line <b>67</b><br />
@@ -1080,7 +1023,7 @@ Comfortable working with Ruby, Python, Java Script, SQL and PHP</p>
 		</a>
 
 		<style>
-			.mega-info-box-395:hover .mega-info-header i {
+			.mega-info-box-351:hover .mega-info-header i {
 				color: #ffffff !important;
 				background:  !important;
 			}
@@ -1088,7 +1031,7 @@ Comfortable working with Ruby, Python, Java Script, SQL and PHP</p>
 
 		</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">		
 							<a style="text-decoration: none;color: #000;">
-					<div class="mega_info_box_2 mega-info-box-259 nonesss nones ">
+					<div class="mega_info_box_2 mega-info-box-377 nonesss nones ">
 				<div class="mega-info-header">
 																<i class="fas fa-tools" aria-hidden="true" style="border: 0px solid ; border-radius: 0px; background: ; width: px; height: px; line-height: <br />
 <b>Warning</b>:  A non-numeric value encountered in <b>/Applications/XAMPP/xamppfiles/htdocs/adeeltariq.com/wp-content/plugins/mega-addons-for-visual-composer/render/infobox.php</b> on line <b>67</b><br />
@@ -1098,7 +1041,7 @@ Comfortable working with Ruby, Python, Java Script, SQL and PHP</p>
 					<h3 class="mega-info-title" style="color: #eeeeee; font-size: 22px; line-height: 1;">
 						Tools					</h3>
 					<div class="mega-info-desc" style="">
-						<p>Advanced proficiency in tools like Fastlane, Sourcery and code generation tools, Git and version control tools, AWS lambdas, Unix Shell, IDEs and Virtual machines etc.</p>
+						<p>Advanced proficiency in tools like Fastlane, Sourcery and code generation tools, Git and version control tools, Amazon web services, Unix Shell, IDEs and Virtual machines etc.</p>
 					</div>
 									</div>
 				<div class="clearfix"></div>
@@ -1106,7 +1049,7 @@ Comfortable working with Ruby, Python, Java Script, SQL and PHP</p>
 		</a>
 
 		<style>
-			.mega-info-box-259:hover .mega-info-header i {
+			.mega-info-box-377:hover .mega-info-header i {
 				color: #ffffff !important;
 				background:  !important;
 			}
@@ -1114,7 +1057,7 @@ Comfortable working with Ruby, Python, Java Script, SQL and PHP</p>
 
 		</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-o-content-top vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">		
 							<a style="text-decoration: none;color: #000;">
-					<div class="mega_info_box_2 mega-info-box-424 nonesss nones ">
+					<div class="mega_info_box_2 mega-info-box-373 nonesss nones ">
 				<div class="mega-info-header">
 																<i class="fas fa-paint-brush" aria-hidden="true" style="border: 0px solid ; border-radius: 0px; background: ; width: px; height: px; line-height: <br />
 <b>Warning</b>:  A non-numeric value encountered in <b>/Applications/XAMPP/xamppfiles/htdocs/adeeltariq.com/wp-content/plugins/mega-addons-for-visual-composer/render/infobox.php</b> on line <b>67</b><br />
@@ -1133,7 +1076,7 @@ Comfortable working with Ruby, Python, Java Script, SQL and PHP</p>
 		</a>
 
 		<style>
-			.mega-info-box-424:hover .mega-info-header i {
+			.mega-info-box-373:hover .mega-info-header i {
 				color: #ffffff !important;
 				background:  !important;
 			}
@@ -1141,7 +1084,7 @@ Comfortable working with Ruby, Python, Java Script, SQL and PHP</p>
 
 		</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">		
 							<a style="text-decoration: none;color: #000;">
-					<div class="mega_info_box_2 mega-info-box-384 nonesss nones ">
+					<div class="mega_info_box_2 mega-info-box-123 nonesss nones ">
 				<div class="mega-info-header">
 																<i class="fas fa-toolbox" aria-hidden="true" style="border: 0px solid ; border-radius: 0px; background: ; width: px; height: px; line-height: <br />
 <b>Warning</b>:  A non-numeric value encountered in <b>/Applications/XAMPP/xamppfiles/htdocs/adeeltariq.com/wp-content/plugins/mega-addons-for-visual-composer/render/infobox.php</b> on line <b>67</b><br />
@@ -1160,7 +1103,7 @@ Comfortable working with Ruby, Python, Java Script, SQL and PHP</p>
 		</a>
 
 		<style>
-			.mega-info-box-384:hover .mega-info-header i {
+			.mega-info-box-123:hover .mega-info-header i {
 				color: #ffffff !important;
 				background:  !important;
 			}
@@ -1168,17 +1111,18 @@ Comfortable working with Ruby, Python, Java Script, SQL and PHP</p>
 
 		</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div id="interests" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-o-content-middle vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><h3 style="text-align: left" class="vc_custom_heading section-heading" >Interests</h3></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-o-content-top vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">		
 							<a style="text-decoration: none;color: #000;">
-					<div class="mega_info_box_2 mega-info-box-31 nonesss nones ">
+					<div class="mega_info_box_2 mega-info-box-100 nonesss nones ">
 				<div class="mega-info-header">
 																<i class="fas fa-book-reader" aria-hidden="true" style="border: 0px solid ; border-radius: 0px; background: ; width: px; height: px; line-height: <br />
 <b>Warning</b>:  A non-numeric value encountered in <b>/Applications/XAMPP/xamppfiles/htdocs/adeeltariq.com/wp-content/plugins/mega-addons-for-visual-composer/render/infobox.php</b> on line <b>67</b><br />
-0px; font-size: 25px; color: #81d742;"></i>
+0px; font-size: 25px; color: #dd9933;"></i>
 									</div>
 				<div class="mega-info-footer">
 					<h3 class="mega-info-title" style="color: #eeeeee; font-size: 22px; line-height: 1;">
 						Reading					</h3>
 					<div class="mega-info-desc" style="">
 						<p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+<p>&nbsp;</p>
 					</div>
 									</div>
 				<div class="clearfix"></div>
@@ -1186,7 +1130,7 @@ Comfortable working with Ruby, Python, Java Script, SQL and PHP</p>
 		</a>
 
 		<style>
-			.mega-info-box-31:hover .mega-info-header i {
+			.mega-info-box-100:hover .mega-info-header i {
 				color: #ffffff !important;
 				background:  !important;
 			}
@@ -1194,17 +1138,18 @@ Comfortable working with Ruby, Python, Java Script, SQL and PHP</p>
 
 		</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">		
 							<a style="text-decoration: none;color: #000;">
-					<div class="mega_info_box_2 mega-info-box-479 nonesss nones ">
+					<div class="mega_info_box_2 mega-info-box-201 nonesss nones ">
 				<div class="mega-info-header">
 																<i class="fas fa-gamepad" aria-hidden="true" style="border: 0px solid ; border-radius: 0px; background: ; width: px; height: px; line-height: <br />
 <b>Warning</b>:  A non-numeric value encountered in <b>/Applications/XAMPP/xamppfiles/htdocs/adeeltariq.com/wp-content/plugins/mega-addons-for-visual-composer/render/infobox.php</b> on line <b>67</b><br />
-0px; font-size: 25px; color: #8224e3;"></i>
+0px; font-size: 25px; color: #8e3be2;"></i>
 									</div>
 				<div class="mega-info-footer">
 					<h3 class="mega-info-title" style="color: #eeeeee; font-size: 22px; line-height: 1;">
 						Games					</h3>
 					<div class="mega-info-desc" style="">
 						<p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+<p>&nbsp;</p>
 					</div>
 									</div>
 				<div class="clearfix"></div>
@@ -1212,13 +1157,39 @@ Comfortable working with Ruby, Python, Java Script, SQL and PHP</p>
 		</a>
 
 		<style>
-			.mega-info-box-479:hover .mega-info-header i {
+			.mega-info-box-201:hover .mega-info-header i {
 				color: #ffffff !important;
 				background:  !important;
 			}
 		</style>
 
-		</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div>
+		</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div id="modal-trg-txt-wrap-6241" class="ult-modal-input-wrapper ult-adjust-bottom-margin    " data-keypress-control="keypress-control-enable" data-overlay-control="overlay-control-enable"><span data-class-id="content-6103036aed91b7-82262172"></span>
+				<script type="text/javascript">
+				(function($){
+					$(document).ready(function(){
+						var selector = "#weeatlocal";
+						$(selector).addClass("custom-ult-modal overlay-show");
+						$(selector).attr("data-class-id", "content-6103036aed91b7-82262172");
+						$(selector).attr("data-overlay-class", "overlay-fade");
+						$(selector).attr("data-keypress-control", "keypress-control-enable");
+						$(selector).attr("data-overlay-control", "overlay-control-enable");
+					});
+				})(jQuery);
+				</script></div>
+<div class="ult-overlay content-6103036aed91b7-82262172 " data-class="content-6103036aed91b7-82262172" id="button-click-overlay" style="background:rgba(51,51,51,0.8); display:none;">
+	<div class="ult_modal ult-fade ult-medium">
+		<div id="ult-modal-wrap-1404" class="ult_modal-content ult-hide" style="border-style:solid;border-width:2px;border-radius:0px;border-color:#333333;">
+			<div class="ult_modal-header" style="color:#333333;border-color:#333333;">
+				<h3  data-ultimate-target='#ult-modal-wrap-1404 .ult_modal-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  class="ult_modal-title ult-responsive">We Eat Local (Android)</h3>
+			</div>
+			<div  data-ultimate-target='#ult-modal-wrap-1404 .ult_modal-body'  data-responsive-json-new='{"font-size":"","line-height":""}'  class="ult_modal-body ult-responsive ult-html" style="background:#333333;">
+			We Eat Local aims to connect local food farmers and producers with the consumer. Users can discover local foods, invite friends and build a profile in a gamified system made to encourage the growth of local food market.</p>
+<p>Written in Java using MVP pattern, Rx Java, Dagger DI, Retrofit, Firebase, Leak Canary, Google Maps and Lottie.
+			</div>
+	</div>
+	</div>
+	<div class="ult-overlay-close top-right" style="width:32px;height:32px; "><div class="ult-overlay-close-inside">Close</div></div>
+</div></div></div></div></div>
 	</div><!--.entry-content-->
 					</div><!--.main-content-->
 				</div><!--.col-md-12-->
@@ -1438,12 +1409,8 @@ Comfortable working with Ruby, Python, Java Script, SQL and PHP</p>
                                         </div>
             <link rel='stylesheet' id='vc_font_awesome_5_shims-css'  href='https://adeeltariq.com/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/v4-shims.min.css?ver=6.7.0' type='text/css' media='all' />
 <link rel='stylesheet' id='vc_font_awesome_5-css'  href='https://adeeltariq.com/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/all.min.css?ver=6.7.0' type='text/css' media='all' />
-<link rel='stylesheet' id='animate-css-css'  href='https://adeeltariq.com/wp-content/plugins/mega-addons-for-visual-composer/render/../css/animate.css?ver=5.7.2' type='text/css' media='all' />
-<link rel='stylesheet' id='modal-popup-btn-css'  href='https://adeeltariq.com/wp-content/plugins/mega-addons-for-visual-composer/render/../css/modal-popup-btn.css?ver=5.7.2' type='text/css' media='all' />
 <link rel='stylesheet' id='info-box-css-css'  href='https://adeeltariq.com/wp-content/plugins/mega-addons-for-visual-composer/render/../css/infobox.css?ver=5.7.2' type='text/css' media='all' />
 <script type='text/javascript' defer src='https://adeeltariq.com/wp-content/themes/visual-composer-starter/js/functions.min.js?ver=3.2.2' id='visualcomposerstarter-script-js'></script>
 <script type='text/javascript' src='https://adeeltariq.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.7.0' id='wpb_composer_front_js-js'></script>
-<script type='text/javascript' src='https://adeeltariq.com/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1' id='jquery-ui-core-js'></script>
-<script type='text/javascript' src='https://adeeltariq.com/wp-content/plugins/mega-addons-for-visual-composer/render/../js/bpopup.js?ver=5.7.2' id='bpopup-js-js'></script>
 </body>
 </html>

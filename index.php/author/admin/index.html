@@ -495,6 +495,7 @@
 		background-color: #d5d5d5;
 	}
 </style>
+<link rel='stylesheet' id='bsf-Defaults-css'  href='https://adeeltariq.com/wp-content/uploads/smile_fonts/Defaults/Defaults.css?ver=5.7.2' type='text/css' media='all' />
 <link rel='stylesheet' id='wpfm-google-fonts-css'  href='//fonts.googleapis.com/css?family=Roboto%3A100italic%2C100%2C300italic%2C300%2C400italic%2C400%2C500italic%2C500%2C700italic%2C700%2C900italic%2C900&#038;ver=5.7.2' type='text/css' media='all' />
 <script type='text/javascript' src='https://adeeltariq.com/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
 <script type='text/javascript' src='https://adeeltariq.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
@@ -776,8 +777,24 @@ a {
 	padding-bottom: 0 !important;
 }
 
-.model-popup-btn span strong:hover {
-	text-decoration:underline;
+.clickable {
+	cursor:pointer;
+}
+.clickable > .vc_column-inner {
+	background:#333333;
+}
+.clickable > .vc_column-inner:hover {
+	background:#3a3a3a;
+}
+
+.overlay-fade {
+    -webkit-transition: opacity .1s,visibility .1s;
+    transition: opacity .1s,visibility .1s;
+}
+
+.overlay-fade.ult-open {
+    -webkit-transition: opacity .1s;
+    transition: opacity .1s;
 }		</style>
 		<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>	</head>
 <body class="archive author author-admin author-1 custom-background visualcomposerstarter header-area-disabled wpb-js-composer js-comp-ver-6.7.0 vc_responsive">
