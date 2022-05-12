@@ -660,7 +660,7 @@ a {
 @media only screen and (max-width: 700px) {
 
 	#footer {
-		padding-bottom: 40px;
+		padding-bottom: 80px;
 	}
 	
 .wpfm-position-left.wpfm-menu-nav ul, .wpfm-position-right.wpfm-menu-nav ul {
@@ -684,10 +684,33 @@ a {
   width: 20%;
 }
 
-.wpfm-template-4 ul li {
-  display: inline-block;
+.wpfm-template-4 ul {
+  display: inline-flex;
+	flex-wrap: wrap-reverse
 }
 
+.devlog-menu {
+		height: 40px !important;
+		width: 16% !important;
+}
+
+.devlog-menu a {
+	bottom: -4px;
+	left: 4px !important;
+}
+	
+.devlog-menu a span i {
+		font-size: 16px !important;
+		line-height: 30px !important;
+}
+.devlog-menu a span {
+		height: 40px !important;
+}
+.devlog-menu a .name {
+		top: 12px !important;
+}
+	
+	
 .wpfm-template-4 ul li a {
   position: absolute;
 }
